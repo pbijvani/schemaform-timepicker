@@ -15,41 +15,41 @@
 
 <ol>
 <li>jQuery (pickatime depends on it)</li>
-<li>The pickatime source files (see time picker <a href="http://amsul.ca/pickadate.js/time/">time picker</li>
+<li>The pickatime source files (see time picker <a href="http://amsul.ca/pickadate.js/time/">time picker</a></li>
 <li>The pickatime CSS (you'll have to choose theme)</li>
 <li>Translation files for whatever language you want to use</li>
 </ol>
 
+<h2>Example</h2>
 
-
-    $scope.schema = {
-        "type": "object",
-        "properties": {
-            "EventTime": {
-                "title": "Bday",
-                "type": "string",
-                "format": "time"                
-            }
+$scope.schema = {
+    "type": "object",
+    "properties": {
+        "EventTime": {
+            "title": "Bday",
+            "type": "string",
+            "format": "time"                
         }
-    };
+    }
+};
 
-    $scope.form = [
-      {
-          "key": "EventTime",
-          "type": "timepicker",
-          "interval": 20,
-          "minTime": [8, 20],
-          "maxTime": [15, 20],
-          "format": "T!ime selected: h:i a",
-          "formatLabel": "<b>h</b>:i <!i>a</!i>",
-          "formatSubmit": "HH:i",
-      },
-        {
-            "type": "submit",
-            "style": "btn-info",
-            "title": "OK"
-        }
-    ];  
-    $scope.model = {
-        "EventTime": "12:20 PM"
-    };
+$scope.form = [
+  {
+      "key": "EventTime",
+      "type": "timepicker",
+      "interval": 20,
+      "minTime": [8, 20],
+      "maxTime": [15, 20],
+      "format": "T!ime selected: h:i a",
+      "formatLabel": "<b>h</b>:i <!i>a</!i>",
+      "formatSubmit": "HH:i",
+  },
+    {
+        "type": "submit",
+        "style": "btn-info",
+        "title": "OK"
+    }
+];  
+$scope.model = {
+    "EventTime": "12:20 PM"
+};
