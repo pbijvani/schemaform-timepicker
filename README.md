@@ -15,7 +15,7 @@
 
 <ol>
 <li>jQuery (pickatime depends on it)</li>
-<li>The pickatime source files (see time picker <a href="http://amsul.ca/pickadate.js/time/">time picker</a></li>
+<li>The pickatime source files (see <a href="http://amsul.ca/pickadate.js/time/">time picker</a>)</li>
 <li>The pickatime CSS (you'll have to choose theme)</li>
 <li>Translation files for whatever language you want to use</li>
 </ol>
