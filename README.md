@@ -1,6 +1,7 @@
 
 
 <h1>Timepicker add-on for Angular Schema Form using pickadate</h1>
+
 <p>This is an add-on for <a href="https://github.com/Textalk/angular-schema-form/">Angular Schema Form</a>.</p>
 
 <p>Now you can have time picker in Schema Form! The time picker add-on uses the excellent jQuery-based time picker,
