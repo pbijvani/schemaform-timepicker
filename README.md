@@ -2,6 +2,7 @@
 
 <h1>Timepicker add-on for Angular Schema Form using pickadate</h1>
 
+
 <p>This is an add-on for <a href="https://github.com/Textalk/angular-schema-form/">Angular Schema Form</a>.</p>
 
 <p>Now you can have time picker in Schema Form! The time picker add-on uses the excellent jQuery-based time picker,
@@ -14,13 +15,13 @@
 <p>You'll need to load a few additional files to use pickadate <strong>in this order</strong>:</p>
 
 <ol>
-<li>jQuery (pickatime depends on it)</li>
-<li>The pickatime source files (see <a href="http://amsul.ca/pickadate.js/time/">time picker</a>)</li>
-<li>The pickatime CSS (you'll have to choose theme)</li>
-<li>Translation files for whatever language you want to use</li>
+    <li>jQuery (pickatime depends on it)</li>
+    <li>The pickatime source files (see <a href="http://amsul.ca/pickadate.js/time/">time picker</a>)</li>
+    <li>The pickatime CSS (you'll have to choose theme)</li>
+    <li>Translation files for whatever language you want to use</li>
 </ol>
 
-<h2>Example</h2>
+<h2>Example:</h2>
 
     $scope.schema = {
         "type": "object",
